@@ -1,11 +1,13 @@
-- name: HTML5Validator
+name: Test
 
 on:
   push:
     branches:
       - main
       
-  uses: Cyb3r-Jak3/html5validator-action
-    with:
-      root: ./
-      blacklist: invalid
+jobs:
+  testing:
+    runs-on: windows-latest
+    steps:
+      - name: HTML5 Validator
+        uses: Cyb3r-Jak3/html5validator-action@v7.0.0
