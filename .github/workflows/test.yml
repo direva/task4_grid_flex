@@ -12,10 +12,3 @@ jobs:
         with:
           directory: ./public_html
           check_html: true
-          
-      - name: Deploy
-      - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
-        with:
-          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: "task4_grid_flex"
-          heroku_email: "direva99@gmail.com"
