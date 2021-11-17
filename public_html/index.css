@@ -33,3 +33,9 @@ nav a:hover,
 nav a:active {
     font-weight: bold;
 }
+
+@media screen and (max-width: 320px) { 
+    header {
+        height: 100px;
+    }
+}
