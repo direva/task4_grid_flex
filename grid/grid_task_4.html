@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/latest/normalize.css">
+    <link rel="stylesheet" href="gridstyles.css">
+    <script src="https://kit.fontawesome.com/5e5b7a2481.js" crossorigin="anonymous"></script>
+    <title>NewsExplorer</title>
+  </head>
+  <body>
+      <header>
+          <div class="logo">NewsExplorer</div>
+          <nav>
+              <ul class="main-menu-list">
+                  <li>Главная</li>
+                  <li class="main-menu-item-active">Сохраненные статьи</li>
+                  <li class="user-name">Грета<i class="fas fa-sign-out-alt"></i></li>
+              </ul>
+              <div class="main-menu-list-mobile"><i class="fas fa-bars"></i></div>
+          </nav>
+      </header>
+      <main>
+          <section class="saved-articles-head">
+              <div>
+                <h1>Сохраненные статьи</h1>
+                <h2>Грета, у вас 5 сохраненных статей</h2>
+                <div class="saved-articles-head__keywords">По ключевым словам: <strong>Природа</strong>, <strong>Тайга</strong> и <strong>2-м другим</strong></div>
+              </div>
+          </section>
+          <section class="saved-articles">
+            <article class="card">
+                <div>
+                    <img src="../img/image_06.png" alt="Национальное достояние - парки">
+                    <div class="card-button card-topic">Природа</div>
+                    <button class="card-button card-action card-action__blocked" type="button"><i class="far fa-trash-alt"></i></button>
+                </div>
+                <div class="card-text-content">
+                    <time>2 августа, 2019</time>
+                    <h3>Национальное достояние &mdash; парки</h3>
+                    <div class="card-text-content-article">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков – 
+                        охраняемых территорий, где и сегодня каждый может приобщиться к природе.</div>
+                    <div class="card-text-content-source">ДЗЕН</div>
+                </div>
+            </article>
+            <article class="card">
+                <div>
+                    <img src="../img/image_01.png" alt="Лесные огоньки: история одной фотографии">
+                    <div class="card-button card-topic">Природа</div>
+                    <button class="card-button card-function" type="button">Убрать из сохраненных</button>
+                    <button class="card-button card-action" type="button"><i class="far fa-trash-alt"></i></button>
+                </div>
+                <div class="card-text-content">
+                    <time>2 августа, 2019</time>
+                    <h3>Лесные огоньки: история одной фотографии</h3>
+                    <div class="card-text-content-article">Фотограф отвлеклась от освещения суровой политической реальности Мексики, 
+                        чтобы запечатлеть ускользающую красоту одного из местных чудес природы.</div>
+                    <div class="card-text-content-source">АФИША</div>
+                </div>
+            </article>
+            <article class="card">
+                <div>
+                    <img src="../img/image_05.png" alt="Первозданная тайга">
+                    <div class="card-button card-topic">Тайга</div>
+                    <button class="card-button card-action card-action__blocked" type="button"><i class="far fa-trash-alt"></i></button>
+                </div>
+                <div class="card-text-content">
+                    <time>2 августа, 2019</time>
+                    <h3>"Первозданная тайга": новый фотопроект Игоря Шпиленка</h3>
+                    <div class="card-text-content-article">Знаменитый фотограф снимает первозданные леса России, чтобы рассказать о необходимости их сохранения. 
+                        В этот раз он отправился в Двинско-Пинежскую тайгу, где...</div>
+                    <div class="card-text-content-source">МЕДИАЗОНА</div>
+                </div>
+            </article>
+            <article class="card">
+                <div>
+                    <img src="../img/image_06.png" alt="Национальное достояние - парки">
+                    <div class="card-button card-topic">Природа</div>
+                    <button class="card-button card-action card-action__blocked" type="button"><i class="far fa-trash-alt"></i></button>
+                </div>
+                <div class="card-text-content">
+                    <time>2 августа, 2019</time>
+                    <h3>Национальное достояние &mdash; парки</h3>
+                    <div class="card-text-content-article">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков – 
+                        охраняемых территорий, где и сегодня каждый может приобщиться к природе.</div>
+                    <div class="card-text-content-source">ДЗЕН</div>
+                </div>
+            </article>
+            <article class="card">
+                <div>
+                    <img src="../img/image_01.png" alt="Лесные огоньки: история одной фотографии">
+                    <div class="card-button card-topic">Природа</div>
+                    <button class="card-button card-action card-action__blocked" type="button"><i class="far fa-trash-alt"></i></button>
+                </div>
+                <div class="card-text-content">
+                    <time>2 августа, 2019</time>
+                    <h3>Лесные огоньки: история одной фотографии</h3>
+                    <div class="card-text-content-article">Фотограф отвлеклась от освещения суровой политической реальности Мексики, 
+                        чтобы запечатлеть ускользающую красоту одного из местных чудес природы.</div>
+                    <div class="card-text-content-source">АФИША</div>
+                </div>
+            </article>
+          </section>
+      </main>
+      <footer>
+          <div class="footer-copyright">© 2020 Supersite, Powered by News API</div>
+          <ul class="footer-menu-list">
+              <li>Главная</li>
+              <li>Яндекс.Практикум</li>
+              <li class="footer-menu-icon"><i class="fab fa-github"></i></li>
+              <li class="footer-menu-icon"><i class="fab fa-facebook-square"></i></li>
+          </ul>
+      </footer>
+  </body>
+</html>

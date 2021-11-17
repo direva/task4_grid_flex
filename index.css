@@ -1,0 +1,35 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto;
+}
+
+header {
+    height: 70px;    
+    box-shadow: inset 0px -1px 0px #D1D2D6;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    margin-bottom: 10px;
+}
+
+nav a,
+nav a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover,
+nav a:active {
+    font-weight: bold;
+}
